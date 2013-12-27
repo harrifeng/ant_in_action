@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><properties>
+	<property name="ant.core.lib" value="D:\Devbox\JavaUtil\ant\lib\ant.jar" />
+	<property name="ant.file" value="c:\Users\hfeng\AppData\Roaming\test\java\aia\ch03\build.xml" />
+	<property name="ant.file.show" value="c:\Users\hfeng\AppData\Roaming\test\java\aia\ch03\build.xml" />
+	<property name="ant.file.type" value="file" />
+	<property name="ant.file.type.show" value="file" />
+	<property name="ant.home" value="d:\Devbox\JavaUtil\ant\bin\.." />
+	<property name="ant.java.version" value="1.7" />
+	<property name="ant.library.dir" value="D:\Devbox\JavaUtil\ant\lib" />
+	<property name="ant.project.default-target" value="echo" />
+	<property name="ant.project.invoked-targets" value="echoxml" />
+	<property name="ant.project.name" value="show" />
+	<property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+	<property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+	<property name="basedir" value="c:\Users\hfeng\AppData\Roaming\test\java\aia\ch03" />
+	<property name="file.encoding" value="GBK" />
+	<property name="file.encoding.pkg" value="sun.io" />
+	<property name="file.separator" value="\" />
+	<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+	<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+	<property name="java.class.path" value="d:\Devbox\JavaUtil\ant\bin\..\lib\ant-launcher.jar;D:\Devbox\JavaUtil\ant\lib\ant-antlr.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-bcel.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-bsf.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-log4j.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-oro.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-regexp.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-resolver.jar;D:\Devbox\JavaUtil\ant\lib\ant-apache-xalan2.jar;D:\Devbox\JavaUtil\ant\lib\ant-commons-logging.jar;D:\Devbox\JavaUtil\ant\lib\ant-commons-net.jar;D:\Devbox\JavaUtil\ant\lib\ant-jai.jar;D:\Devbox\JavaUtil\ant\lib\ant-javamail.jar;D:\Devbox\JavaUtil\ant\lib\ant-jdepend.jar;D:\Devbox\JavaUtil\ant\lib\ant-jmf.jar;D:\Devbox\JavaUtil\ant\lib\ant-jsch.jar;D:\Devbox\JavaUtil\ant\lib\ant-junit.jar;D:\Devbox\JavaUtil\ant\lib\ant-junit4.jar;D:\Devbox\JavaUtil\ant\lib\ant-launcher.jar;D:\Devbox\JavaUtil\ant\lib\ant-netrexx.jar;D:\Devbox\JavaUtil\ant\lib\ant-swing.jar;D:\Devbox\JavaUtil\ant\lib\ant-testutil.jar;D:\Devbox\JavaUtil\ant\lib\ant.jar;d:\DevBox\Java\lib\tools.jar" />
+	<property name="java.class.version" value="51.0" />
+	<property name="java.endorsed.dirs" value="d:\DevBox\Java\jre\lib\endorsed" />
+	<property name="java.ext.dirs" value="d:\DevBox\Java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+	<property name="java.home" value="d:\DevBox\Java\jre" />
+	<property name="java.io.tmpdir" value="C:\Users\hfeng\AppData\Local\Temp\" />
+	<property name="java.library.path" value="d:\DevBox\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:/DevBox/Tools/;d:/DevBox/Git/bin/;d:/DevBox/Python/App/;d:/DevBox/Python/App/Scripts/;d:/DevBox/Java/bin/;d:/DevBox/JavaUtil/ant/bin;d:/DevBox/Graphviz/bin/;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MacType;C:\Program Files\Perforce;." />
+	<property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+	<property name="java.runtime.version" value="1.7.0_45-b18" />
+	<property name="java.specification.name" value="Java Platform API Specification" />
+	<property name="java.specification.vendor" value="Oracle Corporation" />
+	<property name="java.specification.version" value="1.7" />
+	<property name="java.vendor" value="Oracle Corporation" />
+	<property name="java.vendor.url" value="http://java.oracle.com/" />
+	<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+	<property name="java.version" value="1.7.0_45" />
+	<property name="java.vm.info" value="mixed mode" />
+	<property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+	<property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+	<property name="java.vm.specification.vendor" value="Oracle Corporation" />
+	<property name="java.vm.specification.version" value="1.7" />
+	<property name="java.vm.vendor" value="Oracle Corporation" />
+	<property name="java.vm.version" value="24.45-b08" />
+	<property name="line.separator" value="&#xd;&#xa;" />
+	<property name="os.arch" value="x86" />
+	<property name="os.name" value="Windows 8" />
+	<property name="os.version" value="6.2" />
+	<property name="path.separator" value=";" />
+	<property name="sun.arch.data.model" value="32" />
+	<property name="sun.boot.class.path" value="d:\DevBox\Java\jre\lib\resources.jar;d:\DevBox\Java\jre\lib\rt.jar;d:\DevBox\Java\jre\lib\sunrsasign.jar;d:\DevBox\Java\jre\lib\jsse.jar;d:\DevBox\Java\jre\lib\jce.jar;d:\DevBox\Java\jre\lib\charsets.jar;d:\DevBox\Java\jre\lib\jfr.jar;d:\DevBox\Java\jre\classes" />
+	<property name="sun.boot.library.path" value="d:\DevBox\Java\jre\bin" />
+	<property name="sun.cpu.endian" value="little" />
+	<property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+	<property name="sun.desktop" value="windows" />
+	<property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+	<property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher echoxml" />
+	<property name="sun.java.launcher" value="SUN_STANDARD" />
+	<property name="sun.jnu.encoding" value="GBK" />
+	<property name="sun.management.compiler" value="HotSpot Client Compiler" />
+	<property name="sun.os.patch.level" value="" />
+	<property name="user.country" value="US" />
+	<property name="user.country.format" value="CN" />
+	<property name="user.dir" value="c:\Users\hfeng\AppData\Roaming\test\java\aia\ch03" />
+	<property name="user.home" value="C:\Users\hfeng" />
+	<property name="user.language" value="en" />
+	<property name="user.language.format" value="zh" />
+	<property name="user.name" value="hfeng" />
+	<property name="user.script" value="" />
+	<property name="user.timezone" value="" />
+	<property name="user.variant" value="" />
+</properties>
