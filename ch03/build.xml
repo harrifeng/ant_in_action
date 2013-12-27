@@ -15,4 +15,15 @@
         <property name="build.debug" value="true" />
         <echo message="build.debug is ${build.debug}" />
     </target>
+    <target name="ava">
+        <property name="server.port" value="8000" />
+        <fail message="no server at ${server.port}" >
+            <condition>
+                <not>
+                    <socket port="${server.port}"
+                            server="127.0.0.1"/>
+                </not>
+            </condition>
+        </fail>
+    </target>
 </project>
