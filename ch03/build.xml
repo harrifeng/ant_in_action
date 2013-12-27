@@ -10,4 +10,9 @@
         <echoproperties format="xml"
                         destfile="current-properties.xml" />
     </target>
+    <target name="override">
+        <property file="build.properties" />
+        <property name="build.debug" value="true" />
+        <echo message="build.debug is ${build.debug}" />
+    </target>
 </project>
