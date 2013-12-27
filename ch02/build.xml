@@ -1,25 +1,30 @@
 <?xml version="1.0" ?>
-<project name="structured" default="archive">
+<project name="secondbuild" default="execute">
     <target name="init">
         <mkdir dir="build/classes"/>
         <mkdir dir="dist"/>
     </target>
 
-    <target name="compile" depends="init">
+    <target name="compile" depends="init"
+            description="Compiles the source code">
         <javac srcdir="src"
                destdir="build/classes"/>
     </target>
-    <target name="archive" depends="compile">
+    <target name="archive" depends="compile"
+            description="Creates the JAR file">
         <jar destfile="dist/project.jar"
              basedir="build/classes"/>
     </target>
 
-    <target name="clean" depends="init">
+    <target name="clean" depends="init"
+            description="Removes the temporary directories used">
         <delete dir="build" />
         <delete dir="dist" />
     </target>
 
-    <target name="execute" depends="compile">
+    <target name="execute" depends="compile"
+            description="Run the program">
+        <echo level="warning" message="running" />
         <java classname="org.antbook.welcome.Main"
               classpath="build/classes">
             <arg value="a" />
